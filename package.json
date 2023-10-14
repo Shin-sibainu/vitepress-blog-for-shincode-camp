@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "vite-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs && mv docs/.vitepress/dist dist",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.20"
+  },
+  "dependencies": {
+    "markdown-it-container": "^3.0.0",
+    "moment": "^2.29.4"
+  }
+}
